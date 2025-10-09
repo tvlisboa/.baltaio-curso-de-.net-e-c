@@ -11,13 +11,14 @@ namespace Calculator
             Multiplicacao();
             Divisao();
             Resto();
+            Exponenciacao();
         }
         static void Soma()
         {
             Console.Clear();
 
             Console.WriteLine("Seja bem vindo a calculadora em C#!");
-            Console.WriteLine("A primeira conta a seguir é a SOMA");
+            Console.WriteLine("A primeira conta a seguir será a SOMA");
             Console.WriteLine("");
 
             Console.WriteLine("Insira um numero a seguir: ");
@@ -29,13 +30,14 @@ namespace Calculator
 
             double sum = number1 + number2;
             Console.WriteLine($"O resultado dos numeros informados é {sum}" );
+            Console.WriteLine("Pressione qualquer tecla para CONTINUAR !");
             Console.ReadKey(); 
         }
         static void Subtracao()
         {
             Console.Clear();
 
-            Console.WriteLine("A segunda conta a seguir é a SUBTRAÇÃO");
+            Console.WriteLine("A segunda conta a seguir será a SUBTRACAO");
             Console.WriteLine("");
 
             Console.WriteLine("Insira um numero a seguir: ");
@@ -47,13 +49,14 @@ namespace Calculator
 
             double subtracao = number1 - number2;
             Console.WriteLine($"O resultado dos numeros informados é {subtracao}");
+            Console.WriteLine("Pressione qualquer tecla para CONTINUAR !");
             Console.ReadKey();
         }
         static void Multiplicacao()
         {
             Console.Clear();
 
-            Console.WriteLine("A terceira conta a seguir é a MULTIPLICAÇÃO");
+            Console.WriteLine("A terceira conta a seguir será a MULTIPLICACAO");
             Console.WriteLine("");
 
             Console.WriteLine("Insira um numero a seguir: ");
@@ -65,6 +68,7 @@ namespace Calculator
 
             double multiplicacao = number1 * number2;
             Console.WriteLine($"O resultado dos numeros informados é {multiplicacao}");
+            Console.WriteLine("Pressione qualquer tecla para CONTINUAR !");
             Console.ReadKey();
         }
         static void Divisao()
@@ -83,6 +87,7 @@ namespace Calculator
 
             double divisao = number1 / number2;
             Console.WriteLine($"O resultado dos numeros informados é {divisao}");
+            Console.WriteLine("Pressione qualquer tecla para CONTINUAR !");
             Console.ReadKey();
         }
         static void Resto()
@@ -101,7 +106,26 @@ namespace Calculator
 
             double resto = number1 % number2;
             Console.WriteLine($"O resultado dos numeros informados é {resto}");
-            Console.WriteLine("Pressione qualquer tecla para sair !");
+            Console.WriteLine("Pressione qualquer tecla para CONTINUAR !");
+            Console.ReadKey();
+        }
+        static void Exponenciacao()
+        { 
+            Console.Clear();
+
+            Console.WriteLine("A ultima conta que sera a seguir é a EXPONENCIACAO");
+            Console.WriteLine("");
+
+            Console.WriteLine("Insira um numero a seguir: ");
+            double number1 = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Insira outro numero a seguir");
+            double number2 = double.Parse(Console.ReadLine());
+            Console.WriteLine("");
+
+            double exponenciacao = Math.Pow(number1, number2);
+            Console.WriteLine($"O resultado dos numeros informados é {exponenciacao}");
+            Console.WriteLine("Pressione qualquer tecla para FINALIZAR !");
             Console.ReadKey();
         }
     }

@@ -12,3 +12,4 @@ F:\Serratec\Balta.io\FundamentosC#\Calculator\obj\Debug\net9.0\refint\Calculator
 F:\Serratec\Balta.io\FundamentosC#\Calculator\obj\Debug\net9.0\Calculator.pdb
 F:\Serratec\Balta.io\FundamentosC#\Calculator\obj\Debug\net9.0\Calculator.genruntimeconfig.cache
 F:\Serratec\Balta.io\FundamentosC#\Calculator\obj\Debug\net9.0\ref\Calculator.dll
+F:\Serratec\Balta.io\FundamentosC#\Calculator\obj\Debug\net9.0\Calculator.sourcelink.json
