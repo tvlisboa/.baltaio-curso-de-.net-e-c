@@ -1,0 +1,14 @@
+F:\Serratec\Balta.io\FundamentosC#\bin\Debug\net9.0\FundamentosC#.exe
+F:\Serratec\Balta.io\FundamentosC#\bin\Debug\net9.0\FundamentosC#.deps.json
+F:\Serratec\Balta.io\FundamentosC#\bin\Debug\net9.0\FundamentosC#.runtimeconfig.json
+F:\Serratec\Balta.io\FundamentosC#\bin\Debug\net9.0\FundamentosC#.dll
+F:\Serratec\Balta.io\FundamentosC#\bin\Debug\net9.0\FundamentosC#.pdb
+F:\Serratec\Balta.io\FundamentosC#\obj\Debug\net9.0\FundamentosC#.GeneratedMSBuildEditorConfig.editorconfig
+F:\Serratec\Balta.io\FundamentosC#\obj\Debug\net9.0\FundamentosC#.AssemblyInfoInputs.cache
+F:\Serratec\Balta.io\FundamentosC#\obj\Debug\net9.0\FundamentosC#.AssemblyInfo.cs
+F:\Serratec\Balta.io\FundamentosC#\obj\Debug\net9.0\FundamentosC#.csproj.CoreCompileInputs.cache
+F:\Serratec\Balta.io\FundamentosC#\obj\Debug\net9.0\FundamentosC#.dll
+F:\Serratec\Balta.io\FundamentosC#\obj\Debug\net9.0\refint\FundamentosC#.dll
+F:\Serratec\Balta.io\FundamentosC#\obj\Debug\net9.0\FundamentosC#.pdb
+F:\Serratec\Balta.io\FundamentosC#\obj\Debug\net9.0\FundamentosC#.genruntimeconfig.cache
+F:\Serratec\Balta.io\FundamentosC#\obj\Debug\net9.0\ref\FundamentosC#.dll

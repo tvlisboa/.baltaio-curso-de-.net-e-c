@@ -1,0 +1,14 @@
+F:\Serratec\Balta.io\FundamentosC#\Calculator\bin\Debug\net9.0\Calculator.exe
+F:\Serratec\Balta.io\FundamentosC#\Calculator\bin\Debug\net9.0\Calculator.deps.json
+F:\Serratec\Balta.io\FundamentosC#\Calculator\bin\Debug\net9.0\Calculator.runtimeconfig.json
+F:\Serratec\Balta.io\FundamentosC#\Calculator\bin\Debug\net9.0\Calculator.dll
+F:\Serratec\Balta.io\FundamentosC#\Calculator\bin\Debug\net9.0\Calculator.pdb
+F:\Serratec\Balta.io\FundamentosC#\Calculator\obj\Debug\net9.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+F:\Serratec\Balta.io\FundamentosC#\Calculator\obj\Debug\net9.0\Calculator.AssemblyInfoInputs.cache
+F:\Serratec\Balta.io\FundamentosC#\Calculator\obj\Debug\net9.0\Calculator.AssemblyInfo.cs
+F:\Serratec\Balta.io\FundamentosC#\Calculator\obj\Debug\net9.0\Calculator.csproj.CoreCompileInputs.cache
+F:\Serratec\Balta.io\FundamentosC#\Calculator\obj\Debug\net9.0\Calculator.dll
+F:\Serratec\Balta.io\FundamentosC#\Calculator\obj\Debug\net9.0\refint\Calculator.dll
+F:\Serratec\Balta.io\FundamentosC#\Calculator\obj\Debug\net9.0\Calculator.pdb
+F:\Serratec\Balta.io\FundamentosC#\Calculator\obj\Debug\net9.0\Calculator.genruntimeconfig.cache
+F:\Serratec\Balta.io\FundamentosC#\Calculator\obj\Debug\net9.0\ref\Calculator.dll
