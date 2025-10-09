@@ -6,21 +6,49 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            Soma();
-            Subtracao();
-            Multiplicacao();
-            Divisao();
-            Resto();
-            Exponenciacao();
+            Menu();
+        }
+        static void Menu()
+        {
+            BemVindo();
+            Console.Clear();
+            Console.WriteLine("Selecione as opções abaixo: ");
+            Console.WriteLine("1 - Soma");
+            Console.WriteLine("2 - Subtração");
+            Console.WriteLine("3 - Multiplicação");
+            Console.WriteLine("4 - Divisão");
+            Console.WriteLine("5 - Resto da Divisão");
+            Console.WriteLine("6 - Exponenciação");
+            Console.WriteLine("0 - Sair");
+            Console.WriteLine("----------");
+            Console.WriteLine("");
+            Console.WriteLine("");
+
+            short result = short.Parse(Console.ReadLine());
+
+            switch (result)
+            {
+                case 1: Soma(); break;
+                case 2: Subtracao(); break;
+                case 3: Multiplicacao(); break;
+                case 4: Divisao(); break;
+                case 5: Resto(); break;
+                case 6: Exponenciacao(); break;
+                case 0: System.Environment.Exit(0); break;
+                default: Menu(); break;
+            }
+            Sair();
+        }
+        static void BemVindo()
+        { 
+            Console.Clear();
+            Console.WriteLine("Seja bem vindo a calculadora em C#!");
+            Console.WriteLine("Pressione qualquer tecla para CONTINUAR !");
+            Console.ReadKey();
         }
         static void Soma()
         {
             Console.Clear();
-
-            Console.WriteLine("Seja bem vindo a calculadora em C#!");
-            Console.WriteLine("A primeira conta a seguir será a SOMA");
-            Console.WriteLine("");
-
             Console.WriteLine("Insira um numero a seguir: ");
             double number1 = double.Parse(Console.ReadLine());
 
@@ -29,9 +57,10 @@ namespace Calculator
             Console.WriteLine("");
 
             double sum = number1 + number2;
-            Console.WriteLine($"O resultado dos numeros informados é {sum}" );
+            Console.WriteLine($"O resultado dos numeros informados é {sum}");
             Console.WriteLine("Pressione qualquer tecla para CONTINUAR !");
-            Console.ReadKey(); 
+            Console.ReadKey();
+            Menu();
         }
         static void Subtracao()
         {
@@ -51,6 +80,7 @@ namespace Calculator
             Console.WriteLine($"O resultado dos numeros informados é {subtracao}");
             Console.WriteLine("Pressione qualquer tecla para CONTINUAR !");
             Console.ReadKey();
+            Menu();
         }
         static void Multiplicacao()
         {
@@ -70,6 +100,7 @@ namespace Calculator
             Console.WriteLine($"O resultado dos numeros informados é {multiplicacao}");
             Console.WriteLine("Pressione qualquer tecla para CONTINUAR !");
             Console.ReadKey();
+            Menu();
         }
         static void Divisao()
         {
@@ -89,6 +120,7 @@ namespace Calculator
             Console.WriteLine($"O resultado dos numeros informados é {divisao}");
             Console.WriteLine("Pressione qualquer tecla para CONTINUAR !");
             Console.ReadKey();
+            Menu();
         }
         static void Resto()
         {
@@ -108,9 +140,10 @@ namespace Calculator
             Console.WriteLine($"O resultado dos numeros informados é {resto}");
             Console.WriteLine("Pressione qualquer tecla para CONTINUAR !");
             Console.ReadKey();
+            Menu();
         }
         static void Exponenciacao()
-        { 
+        {
             Console.Clear();
 
             Console.WriteLine("A ultima conta que sera a seguir é a EXPONENCIACAO");
@@ -127,6 +160,13 @@ namespace Calculator
             Console.WriteLine($"O resultado dos numeros informados é {exponenciacao}");
             Console.WriteLine("Pressione qualquer tecla para FINALIZAR !");
             Console.ReadKey();
+            Menu();
+        }
+        static void Sair()
+        {
+            Console.Clear();
+            Console.WriteLine("Obrigado por utilizar nossa calculadora, volte sempre!");
+            Console.WriteLine("Pressione a tecla ZERO para sair!");
         }
     }
 }
