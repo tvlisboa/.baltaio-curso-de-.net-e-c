@@ -1,0 +1,15 @@
+F:\Serratec\Balta.io\FundamentosC#\StopWatch_2\bin\Debug\net9.0\StopWatch_2.exe
+F:\Serratec\Balta.io\FundamentosC#\StopWatch_2\bin\Debug\net9.0\StopWatch_2.deps.json
+F:\Serratec\Balta.io\FundamentosC#\StopWatch_2\bin\Debug\net9.0\StopWatch_2.runtimeconfig.json
+F:\Serratec\Balta.io\FundamentosC#\StopWatch_2\bin\Debug\net9.0\StopWatch_2.dll
+F:\Serratec\Balta.io\FundamentosC#\StopWatch_2\bin\Debug\net9.0\StopWatch_2.pdb
+F:\Serratec\Balta.io\FundamentosC#\StopWatch_2\obj\Debug\net9.0\StopWatch_2.GeneratedMSBuildEditorConfig.editorconfig
+F:\Serratec\Balta.io\FundamentosC#\StopWatch_2\obj\Debug\net9.0\StopWatch_2.AssemblyInfoInputs.cache
+F:\Serratec\Balta.io\FundamentosC#\StopWatch_2\obj\Debug\net9.0\StopWatch_2.AssemblyInfo.cs
+F:\Serratec\Balta.io\FundamentosC#\StopWatch_2\obj\Debug\net9.0\StopWatch_2.csproj.CoreCompileInputs.cache
+F:\Serratec\Balta.io\FundamentosC#\StopWatch_2\obj\Debug\net9.0\StopWatch_2.sourcelink.json
+F:\Serratec\Balta.io\FundamentosC#\StopWatch_2\obj\Debug\net9.0\StopWatch_2.dll
+F:\Serratec\Balta.io\FundamentosC#\StopWatch_2\obj\Debug\net9.0\refint\StopWatch_2.dll
+F:\Serratec\Balta.io\FundamentosC#\StopWatch_2\obj\Debug\net9.0\StopWatch_2.pdb
+F:\Serratec\Balta.io\FundamentosC#\StopWatch_2\obj\Debug\net9.0\StopWatch_2.genruntimeconfig.cache
+F:\Serratec\Balta.io\FundamentosC#\StopWatch_2\obj\Debug\net9.0\ref\StopWatch_2.dll
